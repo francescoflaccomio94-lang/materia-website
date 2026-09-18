@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --teal: #0B6664;
+    --teal-dark: #074846;
+    --cream: #F3F0E8;
+    --black: #171717;
+    --gray: #8B8B85;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background: var(--cream);
+    color: var(--black);
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+    width: 100%;
+    padding: 28px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+    font-size: 14px;
+}
+
+nav a {
+    transition: opacity .2s ease;
+}
+
+nav a:hover {
+    opacity: .5;
+}
+
+.nav-button {
+    padding: 12px 20px;
+    background: var(--black);
+    color: var(--white);
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 85vh;
+    padding: 7vw 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5vw;
+}
+
+.eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .15em;
+    color: var(--gray);
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(60px, 8vw, 120px);
+    line-height: .9;
+    letter-spacing: -.07em;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    color: var(--teal);
+}
+
+.hero-description {
+    max-width: 480px;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #555;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 24px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button.primary {
+    background: var(--teal);
+    color: white;
+}
+
+.button.secondary {
+    border: 1px solid #aaa;
+}
+
+.button.light {
+    background: var(--cream);
+    color: var(--black);
+}
+
+/* ABSTRACT OBJECT */
+
+.hero-object {
+    width: min(35vw, 500px);
+    aspect-ratio: 1;
+    position: relative;
+    margin: auto;
+}
+
+.layer {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 18%;
+    background: var(--teal);
+    border-radius: 20px;
+    transform: rotate(-15deg);
+}
+
+.layer-1 {
+    bottom: 8%;
+}
+
+.layer-2 {
+    bottom: 22%;
+    opacity: .9;
+}
+
+.layer-3 {
+    bottom: 36%;
+    opacity: .75;
+}
+
+.layer-4 {
+    bottom: 50%;
+    opacity: .6;
+}
+
+.layer-5 {
+    bottom: 64%;
+    opacity: .45;
+}
+
+/* INTRO */
+
+.intro {
+    padding: 12vw 8vw;
+    max-width: 1100px;
+}
+
+.intro h2,
+.section-header h2,
+.process h2 {
+    font-size: clamp(45px, 6vw, 80px);
+    line-height: .95;
+    letter-spacing: -.06em;
+}
+
+.intro > p:last-child {
+    max-width: 500px;
+    margin-top: 35px;
+    font-size: 20px;
+    color: #555;
+}
+
+/* PROJECTS */
+
+.projects {
+    padding: 10vw 5vw;
+}
+
+.section-header {
+    padding: 0 3vw 70px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 30px;
+}
+
+.project-card {
+    background: var(--white);
+}
+
+.project-card.large {
+    grid-row: span 2;
+}
+
+.project-image {
+    min-height: 400px;
+    background: #ddd;
+}
+
+.project-card.large .project-image {
+    min-height: 650px;
+}
+
+.object-one {
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            var(--teal) 0 18%,
+            transparent 19%
+        ),
+        var(--cream);
+}
+
+.object-two {
+    background:
+        linear-gradient(
+            135deg,
+            var(--teal),
+            var(--teal-dark)
+        );
+}
+
+.object-three {
+    background:
+        linear-gradient(
+            45deg,
+            #dedbd2,
+            #aaa89f
+        );
+}
+
+.project-info {
+    padding: 28px;
+}
+
+.project-info span {
+    font-size: 12px;
+    color: var(--gray);
+}
+
+.project-info h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    letter-spacing: -.03em;
+}
+
+.project-info p {
+    margin-top: 10px;
+    color: #666;
+    max-width: 400px;
+}
+
+/* PROCESS */
+
+.process {
+    padding: 12vw 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10vw;
+}
+
+.process-list {
+    border-top: 1px solid #bbb;
+}
+
+.process-item {
+    padding: 30px 0;
+    border-bottom: 1px solid #bbb;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 20px;
+}
+
+.process-item span {
+    color: var(--teal);
+    font-weight: 600;
+}
+
+.process-item h3 {
+    font-size: 24px;
+}
+
+.process-item p {
+    color: #666;
+    margin-top: 6px;
+}
+
+/* CTA */
+
+.cta {
+    background: var(--teal);
+    color: white;
+    padding: 12vw 8vw;
+}
+
+.cta .eyebrow {
+    color: rgba(255,255,255,.6);
+}
+
+.cta h2 {
+    font-size: clamp(60px, 9vw, 130px);
+    line-height: .85;
+    letter-spacing: -.07em;
+}
+
+.cta p {
+    max-width: 500px;
+    margin: 35px 0;
+    color: rgba(255,255,255,.75);
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--black);
+    color: white;
+    padding: 60px 5vw 30px;
+}
+
+.footer-logo {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -.06em;
+}
+
+footer > p {
+    color: #999;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    font-size: 12px;
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    nav {
+        display: none;
+    }
+
+    .navbar {
+        padding: 22px 6vw;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 12vw 6vw;
+    }
+
+    .hero-object {
+        width: 80vw;
+        margin-top: 50px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card.large {
+        grid-row: auto;
+    }
+
+    .project-card.large .project-image {
+        min-height: 400px;
+    }
+
+    .process {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        padding: 15vw 6vw;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
