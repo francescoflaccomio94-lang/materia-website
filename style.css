@@ -1,401 +1,560 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>MATERIA — Diamo forma alle idee</title>
-
-    <meta name="description"
-          content="MATERIA crea oggetti di design attraverso la stampa 3D. Lampade, vasi e oggetti contemporanei pensati per gli spazi che vivi.">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <!-- NAVIGATION -->
-
-    <header class="navbar">
-
-        <a href="#" class="logo">
-            MATERIA
-        </a>
-
-        <nav>
-            <a href="#collezione">Collezione</a>
-            <a href="#processo">Processo</a>
-            <a href="#idea">La tua idea</a>
-        </nav>
-
-        <a href="#idea" class="nav-button">
-            Parliamone
-        </a>
-
-    </header>
-
-
-    <main>
-
-        <!-- HERO -->
-
-        <section class="hero">
-
-            <div class="hero-content">
-
-                <p class="eyebrow">
-                    OGGETTI DI DESIGN · STAMPA 3D
-                </p>
-
-                <h1>
-                    Diamo forma
-                    <span>alle idee.</span>
-                </h1>
-
-                <p class="hero-text">
-                    Oggetti contemporanei progettati per trasformare
-                    gli spazi che vivi.
-                </p>
-
-                <a href="#collezione" class="button">
-                    Scopri la collezione
-                    <span>→</span>
-                </a>
-
-            </div>
-
-
-            <div class="hero-object">
-
-                <div class="lamp">
-
-                    <div class="lamp-light"></div>
-
-                    <div class="lamp-layer layer-1"></div>
-                    <div class="lamp-layer layer-2"></div>
-                    <div class="lamp-layer layer-3"></div>
-                    <div class="lamp-layer layer-4"></div>
-                    <div class="lamp-layer layer-5"></div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- INTRO -->
-
-        <section class="intro">
-
-            <p class="eyebrow">
-                MATERIA
-            </p>
-
-            <h2>
-                Non è solo stampa 3D.
-            </h2>
-
-            <p class="intro-text">
-                È il modo in cui un'idea prende forma,
-                diventa oggetto e trova il suo posto nello spazio.
-            </p>
-
-        </section>
-
-
-        <!-- COLLECTION -->
-
-        <section class="collection" id="collezione">
-
-            <div class="section-heading">
-
-                <div>
-                    <p class="eyebrow">
-                        LA COLLEZIONE
-                    </p>
-
-                    <h2>
-                        Oggetti che definiscono lo spazio.
-                    </h2>
-                </div>
-
-                <p>
-                    Forme contemporanee, progettate per essere
-                    vissute ogni giorno.
-                </p>
-
-            </div>
-
-
-            <div class="products">
-
-
-                <!-- LUME -->
-
-                <article class="product product-large">
-
-                    <div class="product-image product-lume">
-
-                        <div class="lamp product-lamp">
-
-                            <div class="lamp-light"></div>
-
-                            <div class="lamp-layer layer-1"></div>
-                            <div class="lamp-layer layer-2"></div>
-                            <div class="lamp-layer layer-3"></div>
-                            <div class="lamp-layer layer-4"></div>
-                            <div class="lamp-layer layer-5"></div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <div>
-                            <p class="product-number">01</p>
-
-                            <h3>LUME</h3>
-
-                            <p>
-                                Lampada da tavolo
-                            </p>
-                        </div>
-
-                        <a href="#">
-                            Scopri →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- FORMA -->
-
-                <article class="product">
-
-                    <div class="product-image product-forma">
-
-                        <div class="vase">
-
-                            <div class="vase-opening"></div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <div>
-                            <p class="product-number">02</p>
-
-                            <h3>FORMA 01</h3>
-
-                            <p>
-                                Vaso scultoreo
-                            </p>
-                        </div>
-
-                        <a href="#">
-                            Scopri →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- NODO -->
-
-                <article class="product">
-
-                    <div class="product-image product-nodo">
-
-                        <div class="knot">
-
-                            <div></div>
-                            <div></div>
-                            <div></div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <div>
-                            <p class="product-number">03</p>
-
-                            <h3>NODO</h3>
-
-                            <p>
-                                Oggetto decorativo
-                            </p>
-                        </div>
-
-                        <a href="#">
-                            Scopri →
-                        </a>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- MANIFESTO -->
-
-        <section class="manifesto">
-
-            <p class="eyebrow">
-                IL NOSTRO APPROCCIO
-            </p>
-
-            <h2>
-                Oggetti che non riempiono lo spazio.
-                <span>Lo definiscono.</span>
-            </h2>
-
-        </section>
-
-
-        <!-- PROCESS -->
-
-        <section class="process" id="processo">
-
-            <div class="section-heading">
-
-                <div>
-                    <p class="eyebrow">
-                        IL PROCESSO
-                    </p>
-
-                    <h2>
-                        Dall'idea alla materia.
-                    </h2>
-                </div>
-
-            </div>
-
-
-            <div class="process-grid">
-
-                <div class="process-item">
-
-                    <span>01</span>
-
-                    <h3>Idea</h3>
-
-                    <p>
-                        Tutto parte da un'idea,
-                        un bisogno o semplicemente
-                        da una forma che ci piace.
-                    </p>
-
-                </div>
-
-
-                <div class="process-item">
-
-                    <span>02</span>
-
-                    <h3>Forma</h3>
-
-                    <p>
-                        Trasformiamo il concetto
-                        in un modello tridimensionale.
-                    </p>
-
-                </div>
-
-
-                <div class="process-item">
-
-                    <span>03</span>
-
-                    <h3>Materia</h3>
-
-                    <p>
-                        La stampa 3D trasforma
-                        il modello digitale in un oggetto reale.
-                    </p>
-
-                </div>
-
-
-                <div class="process-item">
-
-                    <span>04</span>
-
-                    <h3>Spazio</h3>
-
-                    <p>
-                        Il risultato trova finalmente
-                        il suo posto nella tua casa.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- CUSTOM -->
-
-        <section class="custom" id="idea">
-
-            <div>
-
-                <p class="eyebrow">
-                    HAI UN'IDEA?
-                </p>
-
-                <h2>
-                    Raccontacela.
-                </h2>
-
-                <p>
-                    Un oggetto che non esiste ancora,
-                    una personalizzazione o semplicemente
-                    un'idea che vorresti vedere prendere forma.
-                </p>
-
-                <a href="mailto:ciao@materia.it" class="button button-light">
-                    Parliamone
-                    <span>→</span>
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-
-    <footer>
-
-        <div class="footer-logo">
-            MATERIA
-        </div>
-
-        <p>
-            Diamo forma alle idee.
-        </p>
-
-        <p>
-            © 2026 MATERIA
-        </p>
-
-    </footer>
-
-
-</body>
-</html>
+```css
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --teal: #0B6664;
+    --teal-dark: #074846;
+    --cream: #F3F0E8;
+    --black: #171717;
+    --gray: #777770;
+    --white: #FFFFFF;
+    --border: rgba(23, 23, 23, 0.12);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background: var(--cream);
+    color: var(--black);
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: 82px;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    z-index: 10;
+    background: var(--cream);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 36px;
+}
+
+.navbar nav a {
+    font-size: 14px;
+    transition: opacity 0.2s ease;
+}
+
+.navbar nav a:hover {
+    opacity: 0.55;
+}
+
+.nav-button {
+    background: var(--black);
+    color: var(--white);
+    padding: 12px 18px;
+    font-size: 13px;
+    border-radius: 100px;
+}
+
+/* GENERALI */
+
+.eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--black);
+    color: var(--white);
+    padding: 16px 22px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button span {
+    font-size: 18px;
+}
+
+/* HERO */
+
+.hero {
+    min-height: calc(100vh - 82px);
+    padding: 7vw 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5vw;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    margin: 22px 0 28px;
+    font-size: clamp(58px, 8vw, 125px);
+    line-height: 0.9;
+    letter-spacing: -0.075em;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    color: var(--teal);
+    display: block;
+}
+
+.hero-text {
+    max-width: 420px;
+    color: var(--gray);
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+
+/* LAMPADA HERO */
+
+.hero-object {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+        circle at center,
+        rgba(11, 102, 100, 0.13),
+        transparent 58%
+    );
+}
+
+.lamp {
+    position: relative;
+    width: 250px;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lamp-layer {
+    position: absolute;
+    width: 250px;
+    height: 74px;
+    background: var(--teal);
+    border-radius: 50%;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.08);
+    transform: rotate(-3deg);
+}
+
+.layer-1 {
+    top: 35px;
+    width: 210px;
+}
+
+.layer-2 {
+    top: 90px;
+    width: 230px;
+}
+
+.layer-3 {
+    top: 145px;
+    width: 250px;
+}
+
+.layer-4 {
+    top: 200px;
+    width: 230px;
+}
+
+.layer-5 {
+    top: 255px;
+    width: 205px;
+}
+
+.lamp-light {
+    position: absolute;
+    width: 110px;
+    height: 280px;
+    background: rgba(243, 240, 232, 0.92);
+    border-radius: 50%;
+    filter: blur(8px);
+    z-index: 2;
+}
+
+/* INTRO */
+
+.intro {
+    padding: 13vw 10vw;
+    max-width: 1100px;
+}
+
+.intro h2 {
+    margin: 28px 0;
+    font-size: clamp(42px, 6vw, 88px);
+    line-height: 0.95;
+    letter-spacing: -0.065em;
+}
+
+.intro-text {
+    max-width: 580px;
+    font-size: 22px;
+    color: var(--gray);
+}
+
+/* COLLEZIONE */
+
+.collection {
+    padding: 8vw 5vw;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 70px;
+    gap: 40px;
+}
+
+.section-heading h2 {
+    margin-top: 18px;
+    font-size: clamp(38px, 5vw, 70px);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+    max-width: 650px;
+}
+
+.section-heading > p {
+    max-width: 280px;
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.product-large {
+    grid-column: span 2;
+}
+
+.product-image {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product-lume {
+    background: #E7E3D9;
+}
+
+.product-forma {
+    background: #DEDBD1;
+}
+
+.product-nodo {
+    background: #D5D2C8;
+}
+
+.product-lamp {
+    transform: scale(1.2);
+}
+
+/* VASO */
+
+.vase {
+    width: 190px;
+    height: 350px;
+    background: var(--white);
+    border-radius: 45% 55% 48% 52% / 20% 22% 78% 80%;
+    transform: rotate(-7deg);
+    box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+
+.vase-opening {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 24px;
+    background: #C9C5BA;
+    border-radius: 50%;
+}
+
+/* NODO */
+
+.knot {
+    width: 230px;
+    height: 230px;
+    position: relative;
+    transform: rotate(-15deg);
+}
+
+.knot div {
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    border: 24px solid var(--black);
+    border-radius: 100px;
+    transform: rotate(45deg);
+}
+
+.knot div:nth-child(1) {
+    top: 45px;
+    left: 10px;
+}
+
+.knot div:nth-child(2) {
+    top: 90px;
+    left: 55px;
+    transform: rotate(-45deg);
+}
+
+.knot div:nth-child(3) {
+    top: 15px;
+    left: 65px;
+    transform: rotate(90deg);
+}
+
+/* INFO PRODOTTI */
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 4px 50px;
+    border-bottom: 1px solid var(--border);
+}
+
+.product-number {
+    font-size: 11px;
+    color: var(--gray);
+    margin-bottom: 8px;
+}
+
+.product-info h3 {
+    font-size: 26px;
+    letter-spacing: -0.04em;
+}
+
+.product-info p:last-child {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.product-info > a {
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+/* MANIFESTO */
+
+.manifesto {
+    min-height: 80vh;
+    padding: 12vw 8vw;
+    background: var(--teal);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.manifesto h2 {
+    max-width: 1000px;
+    margin-top: 30px;
+    font-size: clamp(48px, 7vw, 100px);
+    line-height: 0.92;
+    letter-spacing: -0.07em;
+}
+
+.manifesto h2 span {
+    color: #9BD3CE;
+}
+
+/* PROCESSO */
+
+.process {
+    padding: 10vw 5vw;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--border);
+}
+
+.process-item {
+    padding: 35px 25px 30px;
+    border-right: 1px solid var(--border);
+}
+
+.process-item:first-child {
+    padding-left: 0;
+}
+
+.process-item:last-child {
+    border-right: none;
+}
+
+.process-item span {
+    color: var(--gray);
+    font-size: 12px;
+}
+
+.process-item h3 {
+    margin: 50px 0 15px;
+    font-size: 28px;
+    letter-spacing: -0.04em;
+}
+
+.process-item p {
+    color: var(--gray);
+    font-size: 14px;
+    max-width: 220px;
+}
+
+/* CUSTOM */
+
+.custom {
+    margin: 5vw;
+    padding: 10vw 8vw;
+    background: var(--black);
+    color: var(--white);
+    border-radius: 28px;
+}
+
+.custom h2 {
+    margin: 20px 0;
+    font-size: clamp(60px, 9vw, 130px);
+    line-height: 0.85;
+    letter-spacing: -0.08em;
+}
+
+.custom p:not(.eyebrow) {
+    max-width: 520px;
+    color: #AAA;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.button-light {
+    background: var(--white);
+    color: var(--black);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 50px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--gray);
+    font-size: 13px;
+}
+
+.footer-logo {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    .navbar {
+        height: 70px;
+    }
+
+    .navbar nav {
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding-top: 60px;
+    }
+
+    .hero h1 {
+        font-size: 64px;
+    }
+
+    .hero-object {
+        height: 450px;
+    }
+
+    .intro {
+        padding: 100px 5vw;
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .product-large {
+        grid-column: span 1;
+    }
+
+    .product-image {
+        min-height: 450px;
+    }
+
+    .process-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .process-item {
+        border-bottom: 1px solid var(--border);
+    }
+
+    .process-item:nth-child(2) {
+        border-right: none;
+    }
+
+    .custom {
+        margin: 20px;
+        padding: 80px 30px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
+```
