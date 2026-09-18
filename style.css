@@ -4,12 +4,16 @@
 :root {
     --teal: #0B6664;
     --teal-dark: #074846;
-    --cream: #F3F0E8;
+    --cream: #EAE7DF;
+    --cream-dark: #E2DED4;
+    --cream-light: #F0EEE7;
     --black: #171717;
     --gray: #777770;
     --white: #FFFFFF;
-    --border: rgba(23, 23, 23, 0.12);
+    --border: rgba(23, 23, 23, 0.13);
 }
+
+/* RESET */
 
 * {
     margin: 0;
@@ -75,7 +79,7 @@ a {
     border-radius: 100px;
 }
 
-/* GENERALI */
+/* ELEMENTI GENERALI */
 
 .eyebrow {
     font-size: 11px;
@@ -94,6 +98,12 @@ a {
     border-radius: 100px;
     font-size: 14px;
     font-weight: 500;
+    transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    background: var(--teal-dark);
 }
 
 .button span {
@@ -110,6 +120,7 @@ a {
     align-items: center;
     gap: 5vw;
     overflow: hidden;
+    background: var(--cream);
 }
 
 .hero-content {
@@ -136,18 +147,19 @@ a {
     margin-bottom: 38px;
 }
 
-/* LAMPADA HERO */
+/* OGGETTO HERO */
 
 .hero-object {
     height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(
-        circle at center,
-        rgba(11, 102, 100, 0.13),
-        transparent 58%
-    );
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(11, 102, 100, 0.13),
+            transparent 58%
+        );
 }
 
 .lamp {
@@ -209,6 +221,7 @@ a {
 .intro {
     padding: 13vw 10vw;
     max-width: 1100px;
+    background: var(--cream-light);
 }
 
 .intro h2 {
@@ -228,6 +241,7 @@ a {
 
 .collection {
     padding: 8vw 5vw;
+    background: var(--cream);
 }
 
 .section-heading {
@@ -271,15 +285,15 @@ a {
 }
 
 .product-lume {
-    background: #E7E3D9;
+    background: #DEDAD0;
 }
 
 .product-forma {
-    background: #DEDBD1;
+    background: #D8D4CA;
 }
 
 .product-nodo {
-    background: #D5D2C8;
+    background: #D2CEC4;
 }
 
 .product-lamp {
@@ -291,7 +305,7 @@ a {
 .vase {
     width: 190px;
     height: 350px;
-    background: var(--white);
+    background: #F5F2EA;
     border-radius: 45% 55% 48% 52% / 20% 22% 78% 80%;
     transform: rotate(-7deg);
     box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.12);
@@ -305,7 +319,7 @@ a {
     transform: translateX(-50%);
     width: 80px;
     height: 24px;
-    background: #C9C5BA;
+    background: #C5C0B5;
     border-radius: 50%;
 }
 
@@ -403,6 +417,7 @@ a {
 
 .process {
     padding: 10vw 5vw;
+    background: var(--cream-light);
 }
 
 .process-grid {
@@ -470,6 +485,10 @@ a {
     color: var(--black);
 }
 
+.button-light:hover {
+    background: var(--cream);
+}
+
 /* FOOTER */
 
 footer {
@@ -479,6 +498,7 @@ footer {
     justify-content: space-between;
     color: var(--gray);
     font-size: 13px;
+    background: var(--cream);
 }
 
 .footer-logo {
